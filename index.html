@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" />
+    <title>Secrete Massage</title>
+    <style>
+        .row{
+            margin-top:25vh;
+        }
+        h1{
+            margin-top:0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="row">
+        <div class="col s8 offset-s2">
+            <div class="card-panel hide" id="massage-panel">
+                <h1></h1>
+                <div>
+                    <a href="./index.html">Create Your Own Massage</a>
+                </div>
+            </div>
+            <div class="card-panel" id="input-panel">
+                <form action="">
+                    <label for="">Enter a Secret Massage</label>
+                    <input type="text" name="massage" id="massage">
+                    <button class="btn">Create</button>
+                </form>
+            </div>
+            <div id="link-panel" class="card-panel hide">
+                Share this link with your friend
+                <input type="text" name="link-input" id="link-input" value="">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
